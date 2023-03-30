@@ -1,15 +1,152 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Školní stránka</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Školní stránka</title>
+        <link rel="_variables.scss" href="_variables.scss">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    </head>
+    <body>
 
-</body>
-</html>
+
+</head>
+
+
+<body translate="no">
+ <div class="col-md-20 sm-1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light sm-8">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Škola IT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb    -auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light sm-8" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light sm-8" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class=" nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-light sm-8" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-light sm-8" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider "></li>
+                  <li><a class="dropdown-item text-light sm-8" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+      <div class="py-5">
+        <div class="container">
+          <div class="row hidden-md-up">
+    
+            <div class="col-md-5 sm-5">
+                <div class="card" style="width: 40rem; height: 25rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Škola IT</h5>
+                      <p class="card-text fs-4 ">Průmyslová škola informačních technologií je škola, která připravuje žáky pro práci v oblasti IT. Nabízí studium oborů jako jsou počítačové sítě, programování, databáze nebo kybernetická bezpečnost. Škola spolupracuje s firmami a institucemi a poskytuje žákům moderní vybavení a odborné vedení.</p>
+                      <a href="#" class="btn btn-primary">Přidat přihlášku</a>
+                    </div>
+                  </div>    
+            </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row hidden-md-up">
+        <h4>Učitelé</h4>
+
+        <div class="col-md-4 sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/teacher01.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>    
+        </div>
+        <div class="col-md-4 sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/teacher02.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/teacher03.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-md-4 sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/teacher04.webp " class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/teacher05.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/images/teacher06.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+
+  
+  
+  
+
+
+
+</body></html>
+        
+    </body>
+    </html>
